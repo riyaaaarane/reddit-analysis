@@ -1,2 +1,2 @@
 # prac
-author - riya
+author - riya rane
