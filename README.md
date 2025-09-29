@@ -1,2 +1,0 @@
-# prac
-author - riya rane
