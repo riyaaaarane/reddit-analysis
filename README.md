@@ -18,7 +18,7 @@ The goal of this project is to extract Reddit posts related to specific companie
 - **Data Extraction:** Collected Reddit posts mentioning company names and related discussions.  
 - **Text Preprocessing:** Used **spaCy** for tokenization, lemmatization, and normalization.  
 - **Feature Engineering:** Applied **TF-IDF vectorization** to represent textual data numerically.  
-- **Sentiment Analysis:** Classified sentiments using **BERT-based** and **VADER** models.  
+- **Sentiment Analysis:** Classified sentiments using **BERT-based** models.  
 - **Comparative Analysis:** Compared sentiment trends across companies to identify public perception differences.  
 
 ---
@@ -28,8 +28,8 @@ The goal of this project is to extract Reddit posts related to specific companie
 | Category | Tools / Libraries |
 |-----------|------------------|
 | Programming Language | Python |
-| NLP | spaCy, NLTK, Transformers |
-| Sentiment Models | VADER, BERT (CardiffNLP RoBERTa) |
+| NLP | spaCy, Transformers |
+| Sentiment Models |  BERT (CardiffNLP RoBERTa) |
 | Vectorization | TF-IDF (scikit-learn) |
 | Data Handling | pandas, NumPy |
 | Visualization | matplotlib, seaborn |
@@ -58,7 +58,6 @@ The goal of this project is to extract Reddit posts related to specific companie
 
 - Add topic modeling using **LDA or BERTopic**  
 - Deploy as an interactive **dashboard (Streamlit/Plotly Dash)**  
-- Automate Reddit data extraction via **PRAW or Pushshift API**
 
 ---
 
